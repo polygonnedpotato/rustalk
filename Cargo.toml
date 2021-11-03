@@ -1,0 +1,12 @@
+[package]
+name = "rustalk"
+version = "0.0.0"
+edition = "2018"
+authors=["elburg (Brendan Berger) <whotookelburg@gmail.com>"]
+description="Are you lonely? Do you need interaction in your life? Well RusTalk will let you talk to your computer, whithout having to connect to the internet!"
+exclude=["/librustalk"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#librustalk="0.0.0"
+librustalk={path="librustalk"}

@@ -1,0 +1,9 @@
+[package]
+name = "librustalk"
+version = "0.0.0"
+edition = "2018"
+authors=["elburg (Brendan Berger) <whotookelburg@gmail.com>"]
+description="Contains special resources for RusTalk."
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
